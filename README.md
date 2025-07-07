@@ -1,5 +1,5 @@
 # Profile Page
-## Date:
+## Date: 07-07-2025
 ## Objective:
 
 To design a simple Profile Page using HTML that displays a user's profile image, name, headings, and a short bio, suitable for personal or academic purposes.
@@ -42,7 +42,34 @@ Do not use CSS or JavaScript.
 
 Focus on semantic HTML and readability.
 ## HTML Code:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sabitha Paulraj - Profile</title>
+</head>
+<body>
+  <section>
+    <h1>Sabitha Paulraj</h1>
+    <h2>Web Developer | Designer | Tech Enthusiast</h2>
+    <img src="profile.jpg" alt="Sabitha Paulraj's Profile Photo" width="200" height="200">
+    <hr>
+    <article>
+      <h3>About Me</h3>
+      <p>
+        Hi! I'm Sabitha Paulraj. I'm a 3rd yr CS undergrad obsessed with ML and GenAI. You'll usually find me working with LLMs or deep-diving into NLP just for fun. If it's AI and it's cool — I dive into it.
+        Lately, I've been getting into system design — learning how to architect large-scale systems, from LLDs to HLDs that actually scale.<br><br>
+        Connect with me on <a href="https://www.linkedin.com/in/sabithapaulraj/" target="_blank">LinkedIn</a> or visit my <a href="https://sabithapaulraj.netlify.app/" target="_blank">personal website</a>.
+      </p>
+    </article>
+  </section>
+</body>
+</html> 
+```
 ## Output:
+![image](https://github.com/user-attachments/assets/3b79f1c6-9662-406e-a52b-aa545b49c60b)
+
 
 ## Result:
 A simple Profile Page using HTML that displays a user's profile image, name, headings, and a short bio, suitable for personal or academic purposes is designed successfully.
